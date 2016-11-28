@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;/*To center the heading*/
+}
+
+.info {
+  text-decoration: underline;
+  }
+
+.studies{
+  text-decoration: underline;
+  }
+
+.school{
+  text-align:center;
+
+}
+
+.year{
+  text-align: left;
+}
