@@ -2,6 +2,9 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
     <title>contact</title>
     <link rel="stylesheet" href="css/style.css">
 
@@ -33,25 +36,25 @@
 
   <div class="formgroup" id="name-form">
       <label for="name">Name:</label>
-      <input type="text" id="name" name="name" />
+      <input class="w3-input w3-border w3-hover-green" type="text" id="name" name="name" />
   </div>
 
   <p></p>
 
   <div class="formgroup" id="email-form">
       <label for="email">E-mail:</label>
-      <input type="email" id="email" name="email" />
+      <input class="w3-input w3-border w3-hover-blue" type="email" id="email" name="email" />
   </div>
 
   <p></p>
 
-  <div class="formgroup" id="comment-form">
+  <div class="formgroup" id="message-form">
     <label class="message" for="message">Your message:</label>
     <br /><br />
-  <textarea  class="your-message" name="message" rows="7" cols="30"></textarea>
+  <textarea class="w3-input w3-border w3-hover-red" name="message" rows="7" cols="30"></textarea>
   </div>
 
-  <div class="contactgroup" id="submit-form">
+  <div class="formgroup" id="submit-form">
     <input class="submit" type="submit" value="Send">
 
   </div>

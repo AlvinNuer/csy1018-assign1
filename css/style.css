@@ -101,6 +101,25 @@ li a:hover:not(.active) {/* colour shown when mouse is on it*/
   font-size: 17px;
 }
 
+#email-form{
+  margin-left: 300;
+  margin-right: 300;
+      padding: 0 500px;
+}
+#name-form{
+
+    margin-left: 300;
+    margin-right: 300;
+        padding: 0 500px;
+
+}
+
+#message-form{
+  margin-left: 300;
+  margin-right: 300;
+      padding: 0 500px;
+}
+
 /*END CONTACT */
 
 
@@ -126,12 +145,13 @@ li a:hover:not(.active) {/* colour shown when mouse is on it*/
   text-align:justify;
   margin-left: 150px;
 
-
 }
+
 /*End Bio css*/
 
 
 /*Start CV css*/
+
 .cv{ /*decorating header*/
   color: #ff5722;
   margin-top: 100px;
