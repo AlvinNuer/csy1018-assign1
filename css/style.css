@@ -1,20 +1,157 @@
-h1 {
-  text-align: center;/*To center the heading*/
+/* INDEX CSS START*/
+
+body { /*color and font for the body*/
+  background: #2b2b2b;
+   font-family: 'Graduate', cursiv
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 30px;
+
 }
 
-.info {
+header {/*background image, size and color of everything in the header*/
+   position: relative;
+   height: 200px;
+   min-height: 400px;
+   width: 100%;
+   background: #161415 url(../img/bits.jpg) no-repeat top center;
+   background-size: cover !important;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+ul { /* removing the bullets and assigning background*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {/*Positioning where the lists should be*/
+    float: right;;
+}
+
+li a {
+    display: flex;
+    color: white;
+    text-align: right;;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {/*everything in the unordered list*/
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px)/*change the view of the list for screensizes
+                                        than 600px*/
+{
+    ul.nav li.right,
+    ul.nav li {float: none;}
+    body{float: inherit;}
+}
+
+li a:hover:not(.active) {/* colour shown when mouse is on it*/
+    background-color: #03a9f4;
+}
+
+
+
+.option-h, .active {/*different background for the home*/
+    background-color: #ff5722;
+}
+
+.home{/*placing text in the middle of index or homepage*/
+  color:#ff5722;
+  border: 1px solid none;
+  margin-top: 100px;
+  width:300px;
+  margin-left: 500px
+    }
+
+#student, #northampton{/*placing of the button pictures*/
+  height: 200px;
+  width: 200px;
+}
+
+#coding{ /*height and width for picture*/
+  height: 200px;
+  width: 300px;
+}
+
+.button-pic{/*using  flex to place pictures at the button*/
+  display:flex;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+/*END INDEX*/
+
+
+
+/*START CONTACT*/
+.bodycontact{/* for the body for contact html*/
+  color: #ff5722;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 17px;
+}
+
+/*END CONTACT */
+
+
+/*Start Bio css*/
+.round-profile{/*decorating profile picture*/
+  border-radius: 50%;
+  width: 350px;
+    height: auto;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+  padding-bottom: 20%;
+  margin-right: 200px;
+  margin-top: 100px;
+}
+
+
+
+.bio-h3{
+  color: #ff5722;
+  text-align:justify;
+  margin-left: 150px;
+
+
+}
+/*End Bio css*/
+
+
+/*Start CV css*/
+.cv{ /*decorating header*/
+  color: #ff5722;
+  margin-top: 100px;
+  margin-left: 450px;
   text-decoration: underline;
-  }
+  text-decoration-style: dotted;
 
-.studies{
+}
+
+.p-info, .studies, .career , .Work, .personalities, .Certificates{/*for header 2*/
+  color: #ff5722;
   text-decoration: underline;
-  }
-
-.school{
-  text-align:center;
-
 }
 
-.year{
-  text-align: left;
+
+
+.school,p{ /*decorating texts*/
+  color: white;
 }
+
+
+
+/*End CV css*/
