@@ -19,6 +19,20 @@ header {/*background image, size and color of everything in the header*/
    text-align: center;
    overflow: hidden;
 }
+#footer{
+  color: #ff5722;
+  display: flex;
+  justify-content:center;
+  align-items:baseline;
+
+}
+
+#spin{
+  color: #ff5722;
+  background: #2b2b2b;
+
+}
+
 
 
 ul { /* removing the bullets and assigning background*/
@@ -96,9 +110,7 @@ li a:hover:not(.active) {/* colour shown when mouse is on it*/
 /*START CONTACT*/
 .bodycontact{/* for the body for contact html*/
   color: #ff5722;
-  font-family: 'Lobster', cursive;
   text-align: center;
-  font-size: 17px;
 }
 
 #email-form{
@@ -111,13 +123,22 @@ li a:hover:not(.active) {/* colour shown when mouse is on it*/
     margin-left: 300;
     margin-right: 300;
         padding: 0 500px;
+}
 
+#name, #email{
+
+    width:30%;
 }
 
 #message-form{
   margin-left: 300;
   margin-right: 300;
       padding: 0 500px;
+}
+
+ .submit{
+  color:#ff5722 ;
+  background-color: black;
 }
 
 /*END CONTACT */

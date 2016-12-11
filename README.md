@@ -2,24 +2,24 @@
               	-created necessary directories
               	-downloaded necessary Atom packages
               	-began writing in index(coding)
-		-pushing to guthub(no luck)
-		-pushed to github
+		            -pushing to guthub(no luck)
+		            -pushed to github
 
-		-research on how CV html pages look like
-		-coding my CV html
-		-finishing up with CV html
+		            -research on how CV html pages look like
+		            -coding my CV html
+		            -finishing up with CV html
 
-		-research on how Contact html pages look like
-		-coding Contact html
-		-finishing up with Contact html
+		            -research on how Contact html pages look like
+                -coding Contact html
+		            -finishing up with Contact html
 
-		-research on how Bio html pages look like
-		-coding Bio html
-		-finishing up with Bio html
+          		  -research on how Bio html pages look like
+          	    -coding Bio html
+          		  -finishing up with Bio html
 
-		-trying to push it to github(no luck)
-
-    -implementing material design(hover inputs) in contact html
+          		  -trying to push it to github(no luck)
+                -implementing material design(hover inputs) in contact html
+                -finalizing and checking to make sure all rules are met.
 
 
 reference
