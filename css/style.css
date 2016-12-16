@@ -61,13 +61,21 @@ ul {/*everything in the unordered list*/
     width: 100%;
 }
 
-@media screen and (max-width: 600px)/*change the view of the list for screensizes
-                                        than 600px*/
-{
-    ul.nav li.right,
-    ul.nav li {float: none;}
-    body{float: inherit;}
-}
+footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+
+  }
+
+  .footer {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;}
+
+
 
 li a:hover:not(.active) {/* colour shown when mouse is on it*/
     background-color: #03a9f4;
