@@ -27,4 +27,3 @@
 
 1. https://www.youtube.com/watch?v=gnpz7s4WniYJaffe. (Jul 11, 2011). Basic Contact Form HTML and CSS. Available: https://www.youtube.com/watch?v=gnpz7s4WniY. Last accessed 15/12/2016.
 2. w3schools. (). CSS. Available: http://www.w3schools.com/css/default.asp. Last accessed 15/12/2016.
-3. w3schools. (). W3.CSS Material Design. Available: http://www.w3schools.com/w3css/w3css_material.asp. Last accessed 15/12/2016.

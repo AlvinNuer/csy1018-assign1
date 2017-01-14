@@ -43,9 +43,9 @@ ul { /* removing the bullets and assigning background*/
     background-color: #333;
 }
 
-li {/*Positioning where the lists should be*/
-    float: right;;
-}
+@media screen and (min-width: 480px) {
+    #li {width: 200px; float: left;}
+    #home {margin-left: 216px;}
 
 li a {
     display: flex;
@@ -61,7 +61,7 @@ ul {/*everything in the unordered list*/
     width: 100%;
 }
 
-footer {
+footer { /*footer decoration*/
     padding: 1em;
     color: white;
     background-color: black;
@@ -69,11 +69,6 @@ footer {
     text-align: center;
 
   }
-
-  .footer {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;}
 
 
 
